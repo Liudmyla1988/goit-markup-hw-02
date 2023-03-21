@@ -73,11 +73,17 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-font-style: normal 
 list-style: none
 color: var(--products-color);
 }
 
+.header-address-link:hover{
+color:var(--products-color)
+}
+
+.header-address-link:hover{
+color:var(--products-color)
+}
 
 /**......Effective....*/
 .main-hero {
@@ -123,7 +129,7 @@ background-color: var(--products-color);
 };
 
 .modal-btn:focus{
-background-color: var(--products-color);
+background-color: var(--color-span);
 }
 
 /*----Second section----*/
@@ -142,7 +148,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color:var(--color-span);
+color:var(--color-adress);
 }
 
 
@@ -162,6 +168,7 @@ color: var(--color-span);
 background-color: #F4F4FD;
 }
 
+
 .hero-three {
 font-weight: 700;
 font-size: 36px;
@@ -172,6 +179,9 @@ text-transform: capitalize;
 color: var(--color-span);
 }
 
+.hero-link{
+    background-color:#FFFFFF;
+}
 .hero-three-title {
 font-weight: 500;
 font-size: 20px;
