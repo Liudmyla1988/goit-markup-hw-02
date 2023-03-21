@@ -70,7 +70,6 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 list-style: none;
-font-style: normal;
 color: #434455;
 }
 
@@ -114,16 +113,16 @@ cursor: pointer;
 }
 
 .modal-btn:hover{
-color:#FFFFFF
+color:#FFFFFF;
 }
 
 .modal-btn:focus{
-color:#FFFFFF
+color:#FFFFFF;
 }
 
 .modal-btn:hover{
 background-color: var(--products-color);
-};
+}
 
 .modal-btn:focus{
 background-color:var(--products-color);
@@ -266,15 +265,15 @@ color: #FFFFFF;
     background-color:var(--products-color);
 };
 
-.products-title{
+.category-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color:var(--color-span);
+    color:#2E2F42;
 }
 
-.products-text{
+.category-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
