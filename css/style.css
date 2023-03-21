@@ -27,6 +27,19 @@ color: #404bbf;
 }
 
 
+.title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 /*....... Header.......*/
 
 .header-logo {
@@ -88,11 +101,10 @@ color:var(--products-color);
 background-color: var(--color-span);
 }
 
-.main-taitle {
+.main-title {
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
-text-align: center;
 letter-spacing: 0.02em;
 color: var(--main-title-color);
 }
@@ -132,7 +144,7 @@ background-color:var(--products-color);
 
 /*----Second section----*/
 
-.hero-subject{
+.hero-title {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -142,16 +154,12 @@ color:var(--color-span);
 
 
 .hero-text {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
 color:var(--color-adress);
 }
 
 
 /*-----What are we doing---*/
-.hero-two {
+.three-title {
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -162,7 +170,7 @@ color: var(--color-span);
 }
 
 /**---Our Team--*/
-.section-three{
+.four-title{
 background-color: #F4F4FD;
 }
 
@@ -181,23 +189,16 @@ color: var(--color-span);
     background-color:#FFFFFF;
 }
 .hero-three-title {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-text-align: center;
-letter-spacing: 0.02em;
 color: var(--color-span);
 }
 
 
 .hero-three-text {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-text-align: center;
-letter-spacing: 0.02em;
 color: var(--color-adress);
 }
+
+
+
 /*-- Footer --*/
 .footer-main{
 background-color: var(--color-span);
@@ -218,10 +219,6 @@ color: #F4F4FD;
 }
 
 .footer-main-text {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
 color: var(--footer-main-text-color);
 }
 
@@ -256,23 +253,15 @@ color: #FFFFFF;
 
 .filter-btn:hover,
 .filter-btn:focus{
-background-color:var(--products-color);
+background-color: var(--products-color);
 }
 
 
 
 .category-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color:#2E2F42;
+color:var(--color-span);
 }
 
 .category-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color:var(--color-adress);
+color:var(--color-adress);
 }
