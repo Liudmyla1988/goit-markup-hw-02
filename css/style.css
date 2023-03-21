@@ -163,7 +163,7 @@ letter-spacing: 0.02em;
 color: var(--color-adress);
 }
 /*-- Footer --*/
-.footer-main-linkfont-family{
+.footer-main-link{
 font-family: 'Raleway', san-serif;
 font-weight: 800;
 font-size: 18px;
@@ -174,7 +174,7 @@ color:var(--third-tittle-color);
 } 
 
 .footer-studio-color{
-    color: var(--color-span);
+color: var(--color-span);
 }
 
 .footer-main-text {
