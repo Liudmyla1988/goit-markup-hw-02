@@ -1,11 +1,15 @@
 :root{
-    --main-title-color: #FFFFFF;
-    --text-color: #2E2F42;
-    --third-tittle-color: #4d5ae5;
+--main-title-color: #FFFFFF;
+--text-color: #2E2F42;
+--third-tittle-color: #4D5AE5;
+--color-span: #2E2F42;
+--color-adress: #434455;
+--footer-color: #E7E9FC;
+--products-color: #404BBF;
 }
 
 body {
-font-family: Roboto, sans-serif;
+font-family: 'Raleway', sans-serif;
 background: var(--main-title-color);
 color: #434455;
 }
@@ -31,7 +35,7 @@ text-decoration: none;
 }
 
 .header-logo {
-font-family: 'Raleway', san-serif;
+
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -39,7 +43,7 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color:(var--header-logo-color);
+color:var(--third-tittle-color);
 }
 
 .studio-color{
@@ -53,7 +57,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 
-color: #2E2F42
+color: var(--text-color);
 }
 
 
@@ -62,13 +66,13 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-
-color: #434455
+font-style: normal;
+color: var(--color-adress);
 }
 
 /**......Effective....*/
 .main-hero {
-    background-color: #2E2F42;;
+background-color: var(--color-adress);
 }
 
 .main-taitle {
@@ -77,8 +81,10 @@ font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
+color: var(--main-title-color);
 
-color: #FFFFFF;
+.modal-btn {
+background-color: var(--third-tittle-color);
 }
 
 .modal-btn {
@@ -90,20 +96,20 @@ line-height: 1.5;
 display: flex;
 align-items: center;
 letter-spacing: 0.04em;
-color: #FFFFFF;
-background-color: #4D5AE5;;
+color: var(--main-title-color);
 cursor: pointer;
 }
 
 
 
 /*----Second section----*/
+
 .hero-subject{
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color:var(--color-span);
 }
 
 
@@ -111,7 +117,8 @@ color: #2E2F42;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.02em;color: #434455;
+letter-spacing: 0.02em;
+color:var(--color-span);
 }
 
 
@@ -123,7 +130,7 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: #2E2F42;
+color: var(--color-span);
 }
 
 /**---Our Team--*/
@@ -134,27 +141,40 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: #2E2F42;
+color: var(--color-span);
 }
 
+.hero-three-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--color-span);
+}
+
+
+.hero-three-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--color-adress);
+}
 /*-- Footer --*/
 .footer-main-linkfont-family{
 font-family: 'Raleway', san-serif;
-font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
-display: flex;
-align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color:(var--header-logo-color);
+color:var(--third-tittle-color);
 } 
 
 .footer-studio-color{
     color: var(--color-span);
-}
-color: var(--color-span);
 }
 
 .footer-main-text {
@@ -162,9 +182,12 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #F4F4FD;
+color: var(--footer-main-text-color);
 }
 /*---Button and Pictures--*/
+.footer-main{
+background-color: var(--color-span);
+}
 .filter-btn {
 font-family: 'Roboto', sans-serif;
 font-style: normal;
@@ -175,23 +198,23 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
-color: #4D5AE5;
-background: #F4F4FD;
+color: var(--footer-color);
 cursor: pointer;
 }
 
 .filter-btn:hover,
 .filter-btn:focus{
-background-color:#404BBF;;
-color: #FFFFFF;
+background-color:var(--products-color);
+color: var(--footer-color);
 }
+
 
 .products-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--products-title-color);
 }
 
 .products-text{
@@ -199,5 +222,5 @@ color: #FFFFFF;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--products-text-color);
 }
