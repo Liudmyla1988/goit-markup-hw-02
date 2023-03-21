@@ -1,6 +1,5 @@
 :root{
 --main-title-color: #FFFFFF;
---text-color: #2E2F42;
 --third-tittle-color: #4D5AE5;
 --color-span: #2E2F42;
 --color-adress: #434455;
@@ -9,7 +8,7 @@
 }
 
 body {
-font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
 background: var(--main-title-color);
 color: #434455;
 }
@@ -23,7 +22,7 @@ text-decoration: none;
 }
 
 ..link:hover, link:focus{
-    color: #404bbf;
+color: #404bbf;
 }
 
 
@@ -57,19 +56,34 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 
-color: var(--text-color);
+color: var(--color-span);
 }
 
+
+.header-link:hover{
+color: #404bbf;
+}
+
+.header-link:focus{
+color: #404bbf;
+}
 
 .header-address-link {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-font-style: normal;
 color: var(--color-adress);
 }
 
+.header-phone-link {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--color-adress);
+font-style: normal;
+}
 /**......Effective....*/
 .main-hero {
 background-color: var(--color-adress);
@@ -82,6 +96,7 @@ line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 color: var(--main-title-color);
+}
 
 .modal-btn {
 background-color: var(--third-tittle-color);
@@ -100,6 +115,8 @@ color: var(--main-title-color);
 cursor: pointer;
 }
 
+
+.modal-btn:hover
 
 
 /*----Second section----*/
@@ -163,15 +180,18 @@ letter-spacing: 0.02em;
 color: var(--color-adress);
 }
 /*-- Footer --*/
+.footer-main{
+background-color: var(--color-span);
+}
+
 .footer-main-link{
-font-family: 'Raleway', san-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color:var(--third-tittle-color);
-} 
+}
 
 .footer-studio-color{
 color: var(--color-span);
@@ -184,10 +204,16 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--footer-main-text-color);
 }
-/*---Button and Pictures--*/
-.footer-main{
-background-color: var(--color-span);
+
+.footer-main-link:hover{
+color: #404bbf;
 }
+
+.footer-main-link:focus{
+color: #404bbf;
+}
+
+/*---Button and Pictures--*/
 .filter-btn {
 font-family: 'Roboto', sans-serif;
 font-style: normal;
@@ -198,14 +224,19 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
-color: var(--footer-color);
+color: var(--third-tittle-color);
 cursor: pointer;
 }
 
-.filter-btn:hover,
+.filter-btn{
+background:var(--footer-color);
+}
+
+.filter-btn:hover{
+color: #FFFFFF;
+}
 .filter-btn:focus{
-background-color:var(--products-color);
-color: var(--footer-color);
+color: #404BBF;
 }
 
 
@@ -214,7 +245,7 @@ color: var(--footer-color);
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--products-title-color);
+    color:var(--color-span)
 }
 
 .products-text{
@@ -222,5 +253,5 @@ color: var(--footer-color);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--products-text-color);
+    color:var(--color-adress);
 }
