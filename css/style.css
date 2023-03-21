@@ -34,7 +34,7 @@ color: #404bbf;
 }
 
 .header-logo {
-
+font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -73,20 +73,15 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--color-adress);
+font-style: normal 
+list-style: none
+color: var(--products-color);
 }
 
-.header-phone-link {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--color-adress);
-font-style: normal;
-}
+
 /**......Effective....*/
 .main-hero {
-background-color: var(--color-adress);
+background-color: var(--color-span);
 }
 
 .main-taitle {
@@ -115,9 +110,21 @@ color: var(--main-title-color);
 cursor: pointer;
 }
 
+.modal-btn:hover{
+color:#FFFFFF
+}
 
-.modal-btn:hover
+.modal-btn:focus{
+color:#FFFFFF
+}
 
+.modal-btn:hover{
+background-color: var(--products-color);
+};
+
+.modal-btn:focus{
+background-color: var(--products-color);
+}
 
 /*----Second section----*/
 
@@ -151,6 +158,10 @@ color: var(--color-span);
 }
 
 /**---Our Team--*/
+.section-three{
+background-color: #F4F4FD;
+}
+
 .hero-three {
 font-weight: 700;
 font-size: 36px;
@@ -185,6 +196,7 @@ background-color: var(--color-span);
 }
 
 .footer-main-link{
+font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -194,7 +206,7 @@ color:var(--third-tittle-color);
 }
 
 .footer-studio-color{
-color: var(--color-span);
+color: #F4F4FD;
 }
 
 .footer-main-text {
@@ -212,8 +224,8 @@ color: #404bbf;
 .footer-main-link:focus{
 color: #404bbf;
 }
+/*--Portfolio--*/
 
-/*---Button and Pictures--*/
 .filter-btn {
 font-family: 'Roboto', sans-serif;
 font-style: normal;
@@ -229,16 +241,23 @@ cursor: pointer;
 }
 
 .filter-btn{
-background:var(--footer-color);
+background:#F4F4FD;
 }
 
 .filter-btn:hover{
 color: #FFFFFF;
 }
 .filter-btn:focus{
-color: #404BBF;
+color: var(--products-color);
 }
 
+.filter-btn:hover{
+    background-color:var(--products-color);
+};
+
+.filter-btn:focus{
+    background-color:var(--products-color);
+};
 
 .products-title{
     font-weight: 500;
