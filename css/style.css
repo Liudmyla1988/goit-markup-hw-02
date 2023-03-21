@@ -34,11 +34,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 }
 
-.text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+
 }
 /*....... Header.......*/
 
@@ -154,12 +150,16 @@ color:var(--color-span);
 
 
 .hero-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 color:var(--color-adress);
 }
 
 
 /*-----What are we doing---*/
-.three-title {
+.section-three-title {
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -171,11 +171,14 @@ color: var(--color-span);
 
 /**---Our Team--*/
 .four-title{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
 background-color: #F4F4FD;
 }
 
-
-.hero-three {
+.section-title {
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -185,15 +188,23 @@ text-transform: capitalize;
 color: var(--color-span);
 }
 
-.hero-link{
+.cection-link {
     background-color:#FFFFFF;
 }
-.hero-three-title {
+.section-three-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
 color: var(--color-span);
 }
 
 
 .hero-three-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 color: var(--color-adress);
 }
 
@@ -219,6 +230,10 @@ color: #F4F4FD;
 }
 
 .footer-main-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 color: var(--footer-main-text-color);
 }
 
@@ -259,9 +274,13 @@ background-color: var(--products-color);
 
 
 .category-title {
-color:var(--color-span);
+color:#2E2F42;
 }
 
 .category-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 color:var(--color-adress);
 }
