@@ -75,14 +75,16 @@ color: #404bbf;
 color: #404bbf;
 }
 
+.header-address-list {
+font-style: normal;
+}
+
 
 .header-address-link {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-font-style: normal;
-list-style: none;
 color: #434455;
 }
 
@@ -103,7 +105,7 @@ font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
-
+text-align: center;
 color:var(--main-title-color);
 }
 
@@ -171,7 +173,11 @@ text-transform: capitalize;
 color: var(--color-span);
 }
 
+
 /**---Our Team--*/
+.section-three {
+background-color:#F4F4FD;
+}
 .four-title {
 font-weight: 500;
 font-size: 20px;
@@ -190,9 +196,10 @@ text-transform: capitalize;
 color: var(--color-span);
 }
 
-.cection-link {
-    background-color:#FFFFFF;
+.section-link {
+background-color:#FFFFFF;
 }
+
 .section-three-title {
 font-weight: 500;
 font-size: 20px;
@@ -224,6 +231,7 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+text-decoration: none;
 color:var(--third-tittle-color);
 }
 
@@ -246,6 +254,10 @@ color: #404bbf;
 .footer-main-link:focus {
 color: #404bbf;
 }
+
+
+
+
 /*--Portfolio--*/
 
 .filter-btn {
