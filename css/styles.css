@@ -67,12 +67,13 @@ color: var(--color-span);
 }
 
 
-.header-link:hover {
+.header-link:hover,
+.header-link:focus {
 color: #404bbf;
 }
 
-.header-link:focus {
-color: #404bbf;
+.header-address {
+font-style: normal;
 }
 
 .header-address-link {
@@ -161,9 +162,9 @@ color:var(--color-adress);
 
 
 .section-three-title {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
