@@ -1,5 +1,5 @@
 
-:root{
+:root {
 --main-title-color: #FFFFFF;
 --third-tittle-color: #4D5AE5;
 --color-span: #2E2F42;
@@ -14,6 +14,10 @@ background: var(--main-title-color);
 color: #434455;
 }
 
+.font {
+font-style: normal;
+}
+
 .list {
 list-style: none;
 }
@@ -22,7 +26,7 @@ list-style: none;
 text-decoration: none;
 }
 
-.link:hover, link:focus{
+.link:hover, link:focus {
 color: #404bbf;
 }
 
@@ -35,7 +39,7 @@ letter-spacing: 0.02em;
 }
 
 
-}
+
 /*....... Header.......*/
 
 .header-logo {
@@ -50,7 +54,7 @@ text-transform: uppercase;
 color:var(--third-tittle-color);
 }
 
-.studio-color{
+.studio-color {
 color: var(--color-span);
 }
 
@@ -65,11 +69,11 @@ color: var(--color-span);
 }
 
 
-.header-link:hover{
+.header-link:hover {
 color: #404bbf;
 }
 
-.header-link:focus{
+.header-link:focus {
 color: #404bbf;
 }
 
@@ -79,14 +83,13 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-list-style: none;
 font-style: normal;
+list-style: none;
 color: #434455;
 }
 
-
 .header-address-link:hover,
-header-address-link:focus{
+header-address-link:focus {
 color:var(--products-color);
 }
 
@@ -102,7 +105,8 @@ font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
-color: var(--main-title-color);
+
+color:var(--main-title-color);
 }
 
 .modal-btn {
@@ -122,19 +126,19 @@ color: var(--main-title-color);
 cursor: pointer;
 }
 
-.modal-btn:hover{
+.modal-btn:hover {
+color:#FFFFFF; 
+}
+
+.modal-btn:focus {
 color:#FFFFFF;
 }
 
-.modal-btn:focus{
-color:#FFFFFF;
-}
-
-.modal-btn:hover{
+.modal-btn:hover {
 background-color: var(--products-color);
 }
 
-.modal-btn:focus{
+.modal-btn:focus {
 background-color:var(--products-color);
 }
 
@@ -170,7 +174,7 @@ color: var(--color-span);
 }
 
 /**---Our Team--*/
-.four-title{
+.four-title {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -211,11 +215,11 @@ color: var(--color-adress);
 
 
 /*-- Footer --*/
-.footer-main{
+.footer-main {
 background-color: var(--color-span);
 }
 
-.footer-main-link{
+.footer-main-link {
 font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
@@ -225,7 +229,7 @@ text-transform: uppercase;
 color:var(--third-tittle-color);
 }
 
-.footer-studio-color{
+.footer-studio-color {
 color: #F4F4FD;
 }
 
@@ -237,11 +241,11 @@ letter-spacing: 0.02em;
 color: var(--footer-main-text-color);
 }
 
-.footer-main-link:hover{
+.footer-main-link:hover {
 color: #404bbf;
 }
 
-.footer-main-link:focus{
+.footer-main-link:focus {
 color: #404bbf;
 }
 /*--Portfolio--*/
@@ -257,17 +261,17 @@ color: var(--third-tittle-color);
 cursor: pointer;
 }
 
-.filter-btn{
+.filter-btn {
 background:#F4F4FD;
 }
 
 .filter-btn:hover,
-.filter-btn:focus{
+.filter-btn:focus {
 color: #FFFFFF;
 }
 
 .filter-btn:hover,
-.filter-btn:focus{
+.filter-btn:focus {
 background-color: var(--products-color);
 }
 
