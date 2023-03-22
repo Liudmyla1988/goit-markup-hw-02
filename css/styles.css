@@ -161,10 +161,9 @@ color:var(--color-adress);
 /*-----What are we doing---*/
 
 
-.section-three-title {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
+.section-second-title {
+font-size: 36px;
+line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
