@@ -6,6 +6,7 @@
 --color-adress: #434455;
 --footer-color: #E7E9FC;
 --products-color: #404BBF;
+--backgraund-fon: #F4F4FD;
 }
 
 body {
@@ -27,7 +28,7 @@ text-decoration: none;
 }
 
 .link:hover, link:focus {
-color: #404bbf;
+color:var(--products-color);
 }
 
 
@@ -69,7 +70,7 @@ color: var(--color-span);
 
 .header-link:hover,
 .header-link:focus {
-color: #404bbf;
+color:var(--products-color);
 }
 
 .header-address {
@@ -77,11 +78,10 @@ font-style: normal;
 }
 
 .header-address-link {
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
+color:var(--color-adress);
 }
 
 .header-address-link:hover,
@@ -97,7 +97,6 @@ background-color: var(--color-span);
 }
 
 .main-title {
-font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
@@ -111,7 +110,6 @@ background-color: var(--third-tittle-color);
 
 .modal-btn {
 font-family: 'Roboto', sans-serif;
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -123,11 +121,11 @@ cursor: pointer;
 }
 
 .modal-btn:hover {
-color:#FFFFFF; 
+color:var(--main-title-color)
 }
 
 .modal-btn:focus {
-color:#FFFFFF;
+color:var(--main-title-color);
 }
 
 .modal-btn:hover {
@@ -150,7 +148,6 @@ color:var(--color-span);
 
 
 .hero-text {
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -173,18 +170,17 @@ color: var(--color-span);
 
 /**---Our Team--*/
 .section-three {
-background-color:#F4F4FD;
+background-color:var(--backgraund-fon);
 }
 .four-title {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-background-color: #F4F4FD;
+background-color:var(--backgraund-fon);
 }
 
 .section-title {
-font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
@@ -194,7 +190,7 @@ color: var(--color-span);
 }
 
 .section-link {
-background-color:#FFFFFF;
+background-color:var(--main-title-color);
 }
 
 .section-three-title {
@@ -207,7 +203,6 @@ color: var(--color-span);
 
 
 .section-three-text {
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -233,11 +228,10 @@ color:var(--third-tittle-color);
 }
 
 .footer-studio-color {
-color: #F4F4FD;
+color:var(--backgraund-fon);
 }
 
 .footer-main-text {
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -246,7 +240,7 @@ color: var(--footer-main-text-color);
 
 .footer-main-link:hover,
 .footer-main-link:focus {
-color: #404bbf;
+color:var(--products-color);
 }
 
 
@@ -256,7 +250,6 @@ color: #404bbf;
 
 .filter-btn {
 font-family: 'Roboto', sans-serif;
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -266,12 +259,12 @@ cursor: pointer;
 }
 
 .filter-btn {
-background:#F4F4FD;
+background:var(--backgraund-fon);
 }
 
 .filter-btn:hover,
 .filter-btn:focus {
-color: #FFFFFF;
+color:var(--main-title-color);
 }
 
 .filter-btn:hover,
@@ -282,16 +275,14 @@ background-color: var(--products-color);
 
 
 .category-title {
-font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color:#2E2F42;
+color:var(--color-span);
 }
 
 .category-text {
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
